@@ -1,0 +1,238 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+    color: slategray;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    background-color: steelblue;
+/*     z-index: 1000; */
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+#acme-layout {
+    font-size: 1.5rem;
+    align-self: flex-start;
+    flex: 2;
+}
+
+#align-right {
+    align-items: flex-end;
+    flex: 1;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+#users {
+    font-weight: bold;
+}
+
+#save {
+    color: white;
+    background-color: steelblue;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#create-user {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+/*     border: 4rem; */
+    padding: 1rem;
+    border: solid 2px gray;
+    width: 400px;
+    border-radius: 5px;
+    margin: auto;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+#first-name-section {
+  padding-bottom: 1rem;
+}
+
+#last-name-section {
+  padding-bottom: 1rem;
+}
+
+#department-section {
+  padding-bottom: 1rem;
+}
+
+#both-buttons {
+  align-self: center;
+}
+
+.user{
+  display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: column;
+/*     border: 4rem; */
+/*     padding: 1rem; */
+    border: solid 2px gray;
+    width: 400px;
+    border-radius: 5px;
+/*     margin: auto; */
+    align-itmes: center;
+    padding-bottom: 2rem;
+    justify-content: space-around;
+  padding-bottom: 1rem;
+    text-align: center;
+  flex: 1 0 33%
+  
+/*   display: flex;
+  justify-content: space-around;
+  border: solid 2px gray;
+  width: 33%;
+  border-radius: 5px;
+  text-align: center; */
+}
+
+#user-cards {
+  display: flexS;
+    flex-wrap: wrap;
+    flex-direction: column;
+/*     border: 4rem; */
+    padding: 1rem;
+/*     width: 33%; *
+/*     margin: auto; */
+    align-content: center;
+    padding-bottom: 2rem;
+    justify-content: center;
+}
+
+#user-1-heading{
+  font-weight: bold;
+}
+
+@media (max-width: 400px){
+  .user {
+    flex: 0 0 100%;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
+
+
+/* body {
+    background-color: white;
+    font-family: sans-serif;
+    color: slategray;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    background-color: steelblue;
+/*     z-index: 1000; */
+/* }
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+#acme-layout {
+    font-size: 1.5rem;
+    align-self: flex-start;
+    flex: 2;
+}
+
+#align-right {
+    align-items: flex-end;
+    flex: 1;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+#users {
+    font-weight: bold;
+}
+
+#save {
+    color: white;
+    background-color: steelblue;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#create-user {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+/*     border: 4rem; */
+    /* padding: 1rem;
+    border: solid 2px gray;
+    width: 400px;
+    border-radius: 5px;
+    margin: auto;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+#first-name-section {
+  padding-bottom: 1rem;
+}
+
+#last-name-section {
+  padding-bottom: 1rem;
+}
+
+#department-section {
+  padding-bottom: 1rem;
+}
+
+#both-buttons {
+  align-self: center;
+}
+
+.user {
+  display: flex;
+  justify-content: space-around;
+  border: solid 2px gray;
+  width: 33%;
+  flex:3;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+}
+
+#user-1-heading{
+  font-weight: bold;
+} */ 
